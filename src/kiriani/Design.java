@@ -50,9 +50,9 @@ public class Design extends javax.swing.JFrame {
         txtIdNo = new javax.swing.JTextField();
         btnCancelPatient = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
-        comboIdNo = new javax.swing.JComboBox<>();
+        comboIdNo = new javax.swing.JComboBox<String>();
         txtPhone = new javax.swing.JTextField();
-        comboAddress = new javax.swing.JComboBox<>();
+        comboAddress = new javax.swing.JComboBox<String>();
         txtLocation = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -62,19 +62,19 @@ public class Design extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         btnRegisterPatient = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
-        comboGender = new javax.swing.JComboBox<>();
+        comboGender = new javax.swing.JComboBox<String>();
         jLabel89 = new javax.swing.JLabel();
         comboYearRec = new javax.swing.JComboBox();
         comboMonthRec = new javax.swing.JComboBox();
         comboDayRec = new javax.swing.JComboBox();
         jLabel98 = new javax.swing.JLabel();
-        comboCardNo = new javax.swing.JComboBox<>();
+        comboCardNo = new javax.swing.JComboBox<String>();
         txtCardNo = new javax.swing.JTextField();
-        comboPatientType = new javax.swing.JComboBox<>();
+        comboPatientType = new javax.swing.JComboBox<String>();
         jLabel207 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
         txtPatientRecFilter = new javax.swing.JTextField();
-        comboPatientRecFilter = new javax.swing.JComboBox<>();
+        comboPatientRecFilter = new javax.swing.JComboBox<String>();
         jScrollPane1 = new javax.swing.JScrollPane();
         tablePatientReception = new javax.swing.JTable();
         jLabel21 = new javax.swing.JLabel();
@@ -178,8 +178,8 @@ public class Design extends javax.swing.JFrame {
         jButton17 = new javax.swing.JButton();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane14 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
-        jTextField28 = new javax.swing.JTextField();
+        doctorPatientTable = new javax.swing.JTable();
+        txtDoctorFilterPatient = new javax.swing.JTextField();
         jLabel43 = new javax.swing.JLabel();
         jPanel46 = new javax.swing.JPanel();
         jPanel47 = new javax.swing.JPanel();
@@ -197,8 +197,8 @@ public class Design extends javax.swing.JFrame {
         jTable17 = new javax.swing.JTable();
         jLabel140 = new javax.swing.JLabel();
         jLabel141 = new javax.swing.JLabel();
-        jComboBox13 = new javax.swing.JComboBox<>();
-        jComboBox14 = new javax.swing.JComboBox<>();
+        jComboBox13 = new javax.swing.JComboBox<String>();
+        jComboBox14 = new javax.swing.JComboBox<String>();
         jButton31 = new javax.swing.JButton();
         pharmacyPanel = new javax.swing.JPanel();
         jTabbedPane5 = new javax.swing.JTabbedPane();
@@ -207,7 +207,7 @@ public class Design extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jTextField38 = new javax.swing.JTextField();
         jLabel46 = new javax.swing.JLabel();
-        jComboBox5 = new javax.swing.JComboBox<>();
+        jComboBox5 = new javax.swing.JComboBox<String>();
         jLabel26 = new javax.swing.JLabel();
         jTextField30 = new javax.swing.JTextField();
         jLabel52 = new javax.swing.JLabel();
@@ -243,7 +243,7 @@ public class Design extends javax.swing.JFrame {
         jLabel62 = new javax.swing.JLabel();
         jTextField35 = new javax.swing.JTextField();
         jLabel58 = new javax.swing.JLabel();
-        jComboBox6 = new javax.swing.JComboBox<>();
+        jComboBox6 = new javax.swing.JComboBox<String>();
         jLabel56 = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
         jScrollPane18 = new javax.swing.JScrollPane();
@@ -270,13 +270,13 @@ public class Design extends javax.swing.JFrame {
         jScrollPane17 = new javax.swing.JScrollPane();
         jTable4 = new javax.swing.JTable();
         jLabel105 = new javax.swing.JLabel();
-        jComboBox9 = new javax.swing.JComboBox<>();
+        jComboBox9 = new javax.swing.JComboBox<String>();
         jTextField63 = new javax.swing.JTextField();
         jPanel45 = new javax.swing.JPanel();
         jScrollPane35 = new javax.swing.JScrollPane();
         jTable16 = new javax.swing.JTable();
         jLabel106 = new javax.swing.JLabel();
-        jComboBox10 = new javax.swing.JComboBox<>();
+        jComboBox10 = new javax.swing.JComboBox<String>();
         nursePanel = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
         jLabel33 = new javax.swing.JLabel();
@@ -362,7 +362,7 @@ public class Design extends javax.swing.JFrame {
         jPanel31 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
         jLabel115 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox2 = new javax.swing.JComboBox<String>();
         jLabel116 = new javax.swing.JLabel();
         jLabel117 = new javax.swing.JLabel();
         jLabel118 = new javax.swing.JLabel();
@@ -391,7 +391,7 @@ public class Design extends javax.swing.JFrame {
         jScrollPane29 = new javax.swing.JScrollPane();
         jTable12 = new javax.swing.JTable();
         jLabel107 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox<>();
+        jComboBox11 = new javax.swing.JComboBox<String>();
         jButton32 = new javax.swing.JButton();
         jButton49 = new javax.swing.JButton();
         jTextField64 = new javax.swing.JTextField();
@@ -436,14 +436,14 @@ public class Design extends javax.swing.JFrame {
         jScrollPane31 = new javax.swing.JScrollPane();
         jTable13 = new javax.swing.JTable();
         jLabel129 = new javax.swing.JLabel();
-        jComboBox7 = new javax.swing.JComboBox<>();
+        jComboBox7 = new javax.swing.JComboBox<String>();
         jTextField80 = new javax.swing.JTextField();
         adminEditSubmissionsPanel = new javax.swing.JPanel();
         jPanel38 = new javax.swing.JPanel();
         jScrollPane32 = new javax.swing.JScrollPane();
         jTable14 = new javax.swing.JTable();
         jLabel131 = new javax.swing.JLabel();
-        jComboBox8 = new javax.swing.JComboBox<>();
+        jComboBox8 = new javax.swing.JComboBox<String>();
         jTextField81 = new javax.swing.JTextField();
         jPanel54 = new javax.swing.JPanel();
         jButton46 = new javax.swing.JButton();
@@ -463,7 +463,7 @@ public class Design extends javax.swing.JFrame {
         jScrollPane37 = new javax.swing.JScrollPane();
         jTable18 = new javax.swing.JTable();
         jLabel110 = new javax.swing.JLabel();
-        jComboBox12 = new javax.swing.JComboBox<>();
+        jComboBox12 = new javax.swing.JComboBox<String>();
         jTextField67 = new javax.swing.JTextField();
         jPanel53 = new javax.swing.JPanel();
         jButton52 = new javax.swing.JButton();
@@ -502,14 +502,14 @@ public class Design extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jButton56 = new javax.swing.JButton();
         jButton57 = new javax.swing.JButton();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jComboBox15 = new javax.swing.JComboBox<>();
-        jComboBox17 = new javax.swing.JComboBox<>();
+        jComboBox1 = new javax.swing.JComboBox<String>();
+        jComboBox15 = new javax.swing.JComboBox<String>();
+        jComboBox17 = new javax.swing.JComboBox<String>();
         jLabel96 = new javax.swing.JLabel();
         jTextField58 = new javax.swing.JTextField();
         jPanel18 = new javax.swing.JPanel();
         jPanel55 = new javax.swing.JPanel();
-        jComboBox16 = new javax.swing.JComboBox<>();
+        jComboBox16 = new javax.swing.JComboBox<String>();
         jScrollPane25 = new javax.swing.JScrollPane();
         jTable8 = new javax.swing.JTable();
         jTextField21 = new javax.swing.JTextField();
@@ -519,7 +519,7 @@ public class Design extends javax.swing.JFrame {
         jScrollPane39 = new javax.swing.JScrollPane();
         jTable20 = new javax.swing.JTable();
         jLabel97 = new javax.swing.JLabel();
-        jComboBox18 = new javax.swing.JComboBox<>();
+        jComboBox18 = new javax.swing.JComboBox<String>();
         jTextField71 = new javax.swing.JTextField();
         jPanel58 = new javax.swing.JPanel();
         jPanel59 = new javax.swing.JPanel();
@@ -567,7 +567,7 @@ public class Design extends javax.swing.JFrame {
         jScrollPane40 = new javax.swing.JScrollPane();
         jTable21 = new javax.swing.JTable();
         jLabel149 = new javax.swing.JLabel();
-        jComboBox19 = new javax.swing.JComboBox<>();
+        jComboBox19 = new javax.swing.JComboBox<String>();
         jTextField98 = new javax.swing.JTextField();
         jScrollPane42 = new javax.swing.JScrollPane();
         jTable23 = new javax.swing.JTable();
@@ -629,7 +629,7 @@ public class Design extends javax.swing.JFrame {
         jLabel177 = new javax.swing.JLabel();
         jLabel178 = new javax.swing.JLabel();
         jLabel179 = new javax.swing.JLabel();
-        patientGender1 = new javax.swing.JComboBox<>();
+        patientGender1 = new javax.swing.JComboBox<String>();
         jLabel180 = new javax.swing.JLabel();
         patientCardNumber1 = new javax.swing.JTextField();
         jLabel182 = new javax.swing.JLabel();
@@ -641,14 +641,14 @@ public class Design extends javax.swing.JFrame {
         jPanel77 = new javax.swing.JPanel();
         jLabel171 = new javax.swing.JLabel();
         jTextField120 = new javax.swing.JTextField();
-        jComboBox20 = new javax.swing.JComboBox<>();
+        jComboBox20 = new javax.swing.JComboBox<String>();
         jScrollPane41 = new javax.swing.JScrollPane();
         jTable22 = new javax.swing.JTable();
         jPanel82 = new javax.swing.JPanel();
         jPanel83 = new javax.swing.JPanel();
         jLabel193 = new javax.swing.JLabel();
         jTextField126 = new javax.swing.JTextField();
-        jComboBox25 = new javax.swing.JComboBox<>();
+        jComboBox25 = new javax.swing.JComboBox<String>();
         jScrollPane51 = new javax.swing.JScrollPane();
         jTable25 = new javax.swing.JTable();
         jPanel84 = new javax.swing.JPanel();
@@ -708,10 +708,10 @@ public class Design extends javax.swing.JFrame {
         jScrollPane50 = new javax.swing.JScrollPane();
         jTable24 = new javax.swing.JTable();
         jLabel192 = new javax.swing.JLabel();
-        jComboBox21 = new javax.swing.JComboBox<>();
-        jComboBox22 = new javax.swing.JComboBox<>();
-        jComboBox23 = new javax.swing.JComboBox<>();
-        jComboBox24 = new javax.swing.JComboBox<>();
+        jComboBox21 = new javax.swing.JComboBox<String>();
+        jComboBox22 = new javax.swing.JComboBox<String>();
+        jComboBox23 = new javax.swing.JComboBox<String>();
+        jComboBox24 = new javax.swing.JComboBox<String>();
         jCheckBox9 = new javax.swing.JCheckBox();
         jTextField125 = new javax.swing.JTextField();
         jPanel88 = new javax.swing.JPanel();
@@ -971,7 +971,7 @@ public class Design extends javax.swing.JFrame {
         receptionPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "RECEPTION & FINANCE", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 18))); // NOI18N
 
         jPanel3.setBackground(new java.awt.Color(227, 227, 253));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(255, 255, 255)));
 
         txtAddress.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
         txtAddress.setEnabled(false);
@@ -992,7 +992,7 @@ public class Design extends javax.swing.JFrame {
         jLabel6.setText("DOB:");
 
         comboIdNo.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        comboIdNo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SELECT...", "NO:", "N/A" }));
+        comboIdNo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT...", "NO:", "N/A" }));
         comboIdNo.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 comboIdNoItemStateChanged(evt);
@@ -1012,7 +1012,7 @@ public class Design extends javax.swing.JFrame {
         });
 
         comboAddress.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        comboAddress.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SELECT...", "NO:", "N/A" }));
+        comboAddress.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT...", "NO:", "N/A" }));
         comboAddress.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboAddressActionPerformed(evt);
@@ -1061,7 +1061,7 @@ public class Design extends javax.swing.JFrame {
         jLabel5.setText("NAME:");
 
         comboGender.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        comboGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SELECT...", "MALE", "FEMALE" }));
+        comboGender.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT...", "MALE", "FEMALE" }));
 
         jLabel89.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel89.setForeground(new java.awt.Color(0, 102, 204));
@@ -1072,7 +1072,7 @@ public class Design extends javax.swing.JFrame {
         jLabel98.setText("Card No.");
 
         comboCardNo.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        comboCardNo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SELECT...", "NO:", "N/A" }));
+        comboCardNo.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT...", "NO:", "N/A" }));
         comboCardNo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 comboCardNoActionPerformed(evt);
@@ -1083,7 +1083,7 @@ public class Design extends javax.swing.JFrame {
         txtCardNo.setEnabled(false);
 
         comboPatientType.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        comboPatientType.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select...", "Individual", "Corporate" }));
+        comboPatientType.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Select...", "Individual", "Corporate" }));
 
         jLabel207.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel207.setText("PATIENT TYPE");
@@ -1224,7 +1224,7 @@ public class Design extends javax.swing.JFrame {
         });
 
         comboPatientRecFilter.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        comboPatientRecFilter.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "SELECT...", "CARD NO", "NAME", "ID NO", "PHONE", "LOCATION" }));
+        comboPatientRecFilter.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "SELECT...", "CARD NO", "NAME", "ID NO", "PHONE", "LOCATION" }));
 
         tablePatientReception.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1985,7 +1985,7 @@ public class Design extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(227, 227, 253));
         jPanel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+        doctorPatientTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
@@ -1993,9 +1993,14 @@ public class Design extends javax.swing.JFrame {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane14.setViewportView(jTable3);
+        jScrollPane14.setViewportView(doctorPatientTable);
 
-        jTextField28.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        txtDoctorFilterPatient.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        txtDoctorFilterPatient.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtDoctorFilterPatientKeyReleased(evt);
+            }
+        });
 
         jLabel43.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel43.setText("FILTER BY CARD NO:");
@@ -2060,11 +2065,11 @@ public class Design extends javax.swing.JFrame {
 
         jComboBox13.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jComboBox13.setForeground(new java.awt.Color(0, 0, 51));
-        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jComboBox14.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jComboBox14.setForeground(new java.awt.Color(0, 0, 51));
-        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jButton31.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jButton31.setForeground(new java.awt.Color(153, 0, 0));
@@ -2198,7 +2203,7 @@ public class Design extends javax.swing.JFrame {
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtDoctorFilterPatient, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jPanel46, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -2209,7 +2214,7 @@ public class Design extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel43)
-                    .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtDoctorFilterPatient, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
@@ -2255,7 +2260,7 @@ public class Design extends javax.swing.JFrame {
 
         jComboBox5.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jComboBox5.setForeground(new java.awt.Color(0, 0, 51));
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jComboBox5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox5ActionPerformed(evt);
@@ -2483,7 +2488,7 @@ public class Design extends javax.swing.JFrame {
 
         jComboBox6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jComboBox6.setForeground(new java.awt.Color(0, 0, 51));
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel56.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel56.setText("DAYS");
@@ -2784,7 +2789,7 @@ public class Design extends javax.swing.JFrame {
         jLabel105.setText("FILTER BY:");
 
         jComboBox9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "CARD NUMBER", "NAME" }));
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "CARD NUMBER", "NAME" }));
 
         jTextField63.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
 
@@ -2833,7 +2838,7 @@ public class Design extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
@@ -2872,7 +2877,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel106.setText("FILTER BY:");
 
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
         jPanel45.setLayout(jPanel45Layout);
@@ -3617,7 +3622,7 @@ public class Design extends javax.swing.JFrame {
         jLabel115.setText("Item Name");
 
         jComboBox2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel116.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel116.setText("Available quantity");
@@ -3870,7 +3875,7 @@ public class Design extends javax.swing.JFrame {
         jLabel107.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel107.setText("FILTER BY");
 
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jButton32.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton32.setText("ADD ONE BY ONE");
@@ -4223,7 +4228,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel129.setText("Filter by");
 
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Name", "Description" }));
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Name", "Description" }));
 
         javax.swing.GroupLayout jPanel42Layout = new javax.swing.GroupLayout(jPanel42);
         jPanel42.setLayout(jPanel42Layout);
@@ -4310,7 +4315,7 @@ public class Design extends javax.swing.JFrame {
         jLabel131.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel131.setText("Filter By");
 
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jPanel54.setBackground(new java.awt.Color(209, 209, 248));
         jPanel54.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -4494,7 +4499,7 @@ public class Design extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel39Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
@@ -4542,7 +4547,7 @@ public class Design extends javax.swing.JFrame {
         jLabel110.setText("FILTER BY:");
 
         jComboBox12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ID", "Supplier's name", "Date" }));
+        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ID", "Supplier's name", "Date" }));
 
         jTextField67.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
 
@@ -4620,7 +4625,7 @@ public class Design extends javax.swing.JFrame {
         jScrollPane38.setViewportView(jTable19);
 
         jPanel50.setBackground(new java.awt.Color(227, 227, 253));
-        jPanel50.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED), "EDIT ITEM", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 11), new java.awt.Color(51, 0, 204))); // NOI18N
+        jPanel50.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED), "EDIT ITEM", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, null, new java.awt.Color(51, 0, 204)));
 
         jPanel51.setBackground(new java.awt.Color(184, 168, 253));
         jPanel51.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -4758,7 +4763,7 @@ public class Design extends javax.swing.JFrame {
                     .addGroup(adminEditSupplyPanelLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel48, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jPanel49, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                    .addComponent(jPanel49, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -4768,7 +4773,7 @@ public class Design extends javax.swing.JFrame {
         jPanel37.setLayout(jPanel37Layout);
         jPanel37Layout.setHorizontalGroup(
             jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 1307, Short.MAX_VALUE)
+            .addComponent(jTabbedPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1307, Short.MAX_VALUE)
         );
         jPanel37Layout.setVerticalGroup(
             jPanel37Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4913,11 +4918,11 @@ public class Design extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jComboBox15.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox15.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         jLabel96.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel96.setText("MOBILE:");
@@ -5024,7 +5029,7 @@ public class Design extends javax.swing.JFrame {
         jPanel55.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jComboBox16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jComboBox16.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "PIN NO", "NAME", "ID NO", "PHONE NO" }));
+        jComboBox16.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "PIN NO", "NAME", "ID NO", "PHONE NO" }));
 
         jTable8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTable8.setModel(new javax.swing.table.DefaultTableModel(
@@ -5132,7 +5137,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel97.setText("FILTER BY:");
 
-        jComboBox18.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "NAME", "PIN NO", "ID NO", "MOBILE NO" }));
+        jComboBox18.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "NAME", "PIN NO", "ID NO", "MOBILE NO" }));
 
         javax.swing.GroupLayout jPanel57Layout = new javax.swing.GroupLayout(jPanel57);
         jPanel57.setLayout(jPanel57Layout);
@@ -5570,7 +5575,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel149.setText("FILTER BY:");
 
-        jComboBox19.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "NAME", "PIN NO", "ID NO", "MOBILE NO" }));
+        jComboBox19.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "NAME", "PIN NO", "ID NO", "MOBILE NO" }));
 
         jTable23.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -6097,7 +6102,7 @@ public class Design extends javax.swing.JFrame {
         jLabel179.setText("NAME:");
 
         patientGender1.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
-        patientGender1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "GENDER", "MALE", "FEMALE" }));
+        patientGender1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "GENDER", "MALE", "FEMALE" }));
 
         jLabel180.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel180.setText("CARD NO:");
@@ -6243,7 +6248,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel171.setText("FILTER BY:");
 
-        jComboBox20.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "CARD NO", "NAME", "ID NO", "PHONE" }));
+        jComboBox20.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "CARD NO", "NAME", "ID NO", "PHONE" }));
 
         jTable22.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -6316,7 +6321,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel193.setText("FILTER BY:");
 
-        jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "CARD NO", "NAME", "ID NO", "PHONE" }));
+        jComboBox25.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "CARD NO", "NAME", "ID NO", "PHONE" }));
 
         jTable25.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -6808,7 +6813,7 @@ public class Design extends javax.swing.JFrame {
 
         jLabel192.setText("FILTER BY:");
 
-        jComboBox21.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "FILTER", "CARD NO", "ID NO", "PHONE NO", "NAME" }));
+        jComboBox21.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "FILTER", "CARD NO", "ID NO", "PHONE NO", "NAME" }));
 
         jCheckBox9.setText("INCLUDE DATE");
 
@@ -7119,7 +7124,7 @@ public class Design extends javax.swing.JFrame {
         adminPanelLayout.setVerticalGroup(
             adminPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(adminPanelLayout.createSequentialGroup()
-                .addComponent(jTabbedPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 622, Short.MAX_VALUE)
+                .addComponent(jTabbedPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 622, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -7692,6 +7697,12 @@ public class Design extends javax.swing.JFrame {
         labelLocPatientDetails.setText(tablePatientReception.getValueAt(row, 5).toString());
     }//GEN-LAST:event_tablePatientReceptionMouseClicked
 
+    private void txtDoctorFilterPatientKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtDoctorFilterPatientKeyReleased
+        // TODO add your handling code here:
+        String doctorPatientFilter=txtDoctorFilterPatient.getText();
+         doctorPatientTable.setModel(new connection().PopulateTable("SELECT * FROM patient WHERE cardno LIKE '"+doctorPatientFilter+"%'"));
+    }//GEN-LAST:event_txtDoctorFilterPatientKeyReleased
+
     /**
      * @param args the command line arguments
      */
@@ -7762,6 +7773,7 @@ public class Design extends javax.swing.JFrame {
     private javax.swing.JComboBox comboYearRec;
     private javax.swing.JMenuItem doctorMenuItem;
     private javax.swing.JPanel doctorPanel;
+    private javax.swing.JTable doctorPatientTable;
     private javax.swing.JMenu fileMenu;
     private javax.swing.JPanel holdingPanel;
     private javax.swing.JButton jButton1;
@@ -8257,7 +8269,6 @@ public class Design extends javax.swing.JFrame {
     private javax.swing.JTable jTable24;
     private javax.swing.JTable jTable25;
     private javax.swing.JTable jTable26;
-    private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
     private javax.swing.JTable jTable5;
     private javax.swing.JTable jTable6;
@@ -8349,7 +8360,6 @@ public class Design extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField25;
     private javax.swing.JTextField jTextField26;
     private javax.swing.JTextField jTextField27;
-    private javax.swing.JTextField jTextField28;
     private javax.swing.JTextField jTextField29;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField30;
@@ -8458,6 +8468,7 @@ public class Design extends javax.swing.JFrame {
     private javax.swing.JTable tablePatientReception;
     private javax.swing.JTextField txtAddress;
     private javax.swing.JTextField txtCardNo;
+    private javax.swing.JTextField txtDoctorFilterPatient;
     private javax.swing.JTextField txtIdNo;
     private javax.swing.JTextField txtLocation;
     private javax.swing.JTextField txtPatientName;
